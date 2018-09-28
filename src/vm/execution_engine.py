@@ -1,9 +1,9 @@
-from utils.push_data import PushData
-from utils.script_op import ScriptOp
-from vm.execution_context import ExecutionContext
-from vm.op_exec_list import OpExecList
-from vm.random_access_stack import RandomAccessStack
-from vm.vm_state import VMState
+from src.utils.push_data import PushData
+from src.utils.script_op import ScriptOp
+from src.vm.execution_context import ExecutionContext
+from src.vm.op_exec_list import OpExecList
+from src.vm.random_access_stack import RandomAccessStack
+from src.vm.vm_state import VMState
 
 
 class ExecutionEngine(object):

@@ -1,7 +1,7 @@
 import os
 
-from utils.script_op import ScriptOp
-from vm.vm_state import VMState
+from src.utils.script_op import ScriptOp
+from src.vm.vm_state import VMState
 
 
 class OpExec(object):

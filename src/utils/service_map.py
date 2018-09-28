@@ -1,5 +1,5 @@
 
-from utils.service import Service
+from src.utils.service import Service
 
 
 class ServiceMap(object):

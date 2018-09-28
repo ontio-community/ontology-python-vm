@@ -1,8 +1,8 @@
-from types.array_item import ArrayItem
-from types.bool_item import BoolItem
-from types.bytearray_item import ByteArrayItem
-from types.integer_item import IntegerItem
-from types.stack_items import StackItems
+from src.types.array_item import ArrayItem
+from src.types.bool_item import BoolItem
+from src.types.bytearray_item import ByteArrayItem
+from src.types.integer_item import IntegerItem
+from src.types.stack_items import StackItems
 
 
 class RandomAccessStack(object):

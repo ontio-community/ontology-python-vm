@@ -1,6 +1,6 @@
 
 from ontology import utils
-from types.stack_items import StackItems
+from src.types.stack_items import StackItems
 
 
 class IntegerItem(StackItems):

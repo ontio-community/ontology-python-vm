@@ -1,4 +1,4 @@
-from utils.vm_reader import VmReader
+from src.utils.vm_reader import VmReader
 
 
 class ExecutionContext(object):

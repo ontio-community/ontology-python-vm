@@ -1,9 +1,9 @@
-from types.array_item import ArrayItem
-from types.map_item import MapItem
-from types.struct_item import StructItem
-from utils.push_data import PushData
-from utils.script_op import ScriptOp
-from vm.op_exec import OpExec
+from src.types.array_item import ArrayItem
+from src.types.map_item import MapItem
+from src.types.struct_item import StructItem
+from src.utils.push_data import PushData
+from src.utils.script_op import ScriptOp
+from src.vm.op_exec import OpExec
 
 
 class OpExecList(object):

@@ -4,14 +4,14 @@ from ontology.core.sig import Sig
 from ontology.ont_sdk import OntologySdk
 from ontology.smart_contract.neo_contract.abi.abi_info import AbiInfo
 from ontology.smart_contract.neo_contract.abi.build_params import BuildParams
-from types.bool_item import BoolItem
-from types.bytearray_item import ByteArrayItem
-from types.integer_item import IntegerItem
-from utils.config import Config
-from utils.script_op import ScriptOp
-from utils.service_map import ServiceMap
-from vm.execution_context import ExecutionContext
-from vm.execution_engine import ExecutionEngine
+from src.types.bool_item import BoolItem
+from src.types.bytearray_item import ByteArrayItem
+from src.types.integer_item import IntegerItem
+from src.utils.config import Config
+from src.utils.script_op import ScriptOp
+from src.utils.service_map import ServiceMap
+from src.vm.execution_context import ExecutionContext
+from src.vm.execution_engine import ExecutionEngine
 
 privatekey1 = "1094e90dd7c4fdfd849c14798d725ac351ae0d924b29a279a9ffa77d5737bd96"
 privatekey2 = "bc254cf8d3910bc615ba6bf09d4553846533ce4403bc24f58660ae150a6d64cf"

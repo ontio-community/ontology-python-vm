@@ -1,14 +1,14 @@
 from ontology.crypto.digest import Digest
-from types.array_item import ArrayItem
-from types.bool_item import BoolItem
-from types.bytearray_item import ByteArrayItem
-from types.integer_item import IntegerItem
-from types.interop_item import InteropItem
-from types.map_item import MapItem
-from types.stack_items import StackItems
-from types.struct_item import StructItem
-from utils.script_op import ScriptOp
-from vm.vm_state import VMState
+from src.types.array_item import ArrayItem
+from src.types.bool_item import BoolItem
+from src.types.bytearray_item import ByteArrayItem
+from src.types.integer_item import IntegerItem
+from src.types.interop_item import InteropItem
+from src.types.map_item import MapItem
+from src.types.stack_items import StackItems
+from src.types.struct_item import StructItem
+from src.utils.script_op import ScriptOp
+from src.vm.vm_state import VMState
 
 
 class PushData(object):
