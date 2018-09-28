@@ -30,7 +30,7 @@ codeStr = "57c56b6c766b00527ac46c766b51527ac4616c766b51c300c36c766b52527ac46c766
 sdk = OntologySdk()
 
 
-def test():
+def execute_test():
     acct1 = Account(privatekey1)
     acct2 = Account(privatekey2)
     abi = AbiInfo(nep5abi['hash'], nep5abi['entrypoint'], nep5abi["functions"])
@@ -95,4 +95,4 @@ def test():
 
 
 if __name__ == "__main__":
-    test()
+    execute_test()
